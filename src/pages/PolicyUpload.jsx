@@ -2,7 +2,7 @@ import { useState, useRef, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { usePolicy } from '../PolicyContext'
 
-const API_URL = 'http://localhost:3001/api/analyze'
+const API_URL = 'https://maxinsure-be.onrender.com/api/analyze'
 
 const STEPS = [
   'Extracting document text...',
